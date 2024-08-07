@@ -1,11 +1,13 @@
 certifi==2018.10.15
 chardet==3.0.4
-django-crispy-forms==1.14.0
 idna==2.7
 Pillow==5.2.0
 pytz==2018.5
 requests==2.19.1
 urllib3==1.23
-Django>=3.0,<4.0
-gunicorn
-crispy-bootstrap4
+Django>=4.0,<5.0
+django-crispy-forms>=1.15,<2.0
+django-crispy-bootstrap4>=1.0,<2.0
+drf-spectacular>=0.21,<1.0
+djangorestframework>=3.14,<4.0
+django-cors-headers>=3.10,<4.0
