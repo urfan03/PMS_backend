@@ -33,17 +33,17 @@ ALLOWED_HOSTS = ['pmsystems.az']
 INSTALLED_APPS = [
     'service_details.apps.BlogConfig',
     'users.apps.UsersConfig',
-    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crispy_bootstrap4',
     'drf_spectacular',
     'rest_framework',
     'corsheaders',
+    'crispy_forms',
+    'crispy_bootstrap4',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
